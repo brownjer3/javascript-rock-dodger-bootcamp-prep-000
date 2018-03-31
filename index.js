@@ -150,7 +150,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  window.requestAnimationFrame();
+  window.requestAnimationFrame(function());
 
   // implement me!
   /**
