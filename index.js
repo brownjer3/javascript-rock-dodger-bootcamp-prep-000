@@ -94,9 +94,9 @@ function createRock(x) {
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
      */
-     else if(top < 400) {
+     else if(top < 380) {
       window.requestAnimationFrame(moveRock);
-     } else if(top >= 400) {
+    } else if(top >= 380) {
        rock.remove();
      }
 
