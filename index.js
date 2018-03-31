@@ -129,7 +129,7 @@ function endGame() {
     ROCKS[i].remove();
   }
   window.removeEventListener('keydown', moveDodger);
-  return alert('GO NIGHT NIGHT');
+  return alert('MEEP');
 }
 
 function moveDodger(e) {
