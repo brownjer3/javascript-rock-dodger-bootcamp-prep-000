@@ -125,6 +125,7 @@ function createRock(x) {
  */
 function endGame() {
   gameInterval = null;
+  ROCKS = [];
 
 }
 
