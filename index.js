@@ -135,7 +135,7 @@ function endGame() {
 function moveDodger(e) {
   if(e.which === LEFT_ARROW) {
     moveDodgerLeft();
-  }
+  } else if (e.which === )
 
   // implement me!
   /**
