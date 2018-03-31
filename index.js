@@ -133,7 +133,7 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  if(e.which === 37)
+  if(e.which === LEFT_ARROW)
 
   // implement me!
   /**
