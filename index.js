@@ -126,7 +126,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval);
   ROCKS = [];
-  window.removeEventListener("keydown", handleMouseDown, { passive: true });
+  window.removeEventListener("keydown", );
   window.alert("YOU LOSE!");
 }
 
