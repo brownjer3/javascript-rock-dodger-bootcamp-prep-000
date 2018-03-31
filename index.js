@@ -70,8 +70,8 @@ function createRock(x) {
    * it to GAME and move it downwards.
    */
 
-   GAME = GAME.appendChild(rock);
-   ROCKS = ROCKS.push(rock);
+   GAME.appendChild(rock);
+   //ROCKS.push(rock);
 
   /**
    * This function moves the rock. (2 pixels at a time
