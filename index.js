@@ -133,7 +133,7 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  if()
+  if(e.which === 37)
 
   // implement me!
   /**
