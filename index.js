@@ -133,7 +133,7 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  
+  if()
 
   // implement me!
   /**
