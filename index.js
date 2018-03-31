@@ -150,9 +150,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  let left = 0;
-  DODGER.style.left = '${left += 2}px'
-  window.requestAnimationFrame(moveDodgerLeft);
+  window.requestAnimationFrame();
 
   // implement me!
   /**
