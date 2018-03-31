@@ -159,7 +159,7 @@ function moveDodgerLeft() {
     if(leftht > 0) {
       DODGER.style.left = '${left - 4}px';
     }
-  )};
+  });
 
   // implement me!
   /**
